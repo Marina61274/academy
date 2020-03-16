@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+      <meta charset="utf-8">
+    <meta name="viewropt" content="width=device-width, initial-scale=1,0">
+    <title> Boot</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="bootstrap.css">
+     </head>
+
+<body>
+     
+  <div class="section1">
+    <div class="container-xl">
+         <div class="row">
+  <div class="col-xl-12">
+  <h1 class="header text-center">
+  <span> Обучение в Codarium Mariupol </span>
+  <strong class="text-uppercase"> РАЗРАБАТЫВАЕМ САЙТ  </strong>
+  <div class="col">
+    <div class="feature-box" id="video" > 
+    <img  width="50%"  src="img/3436290-teacher-near-blackboard.jpg">
+  </h1>
+  </div>
+  </div>
+ 
+<div class="section1_______">
+  <div class="container-xl">
+      
+<div class="row">
+<div class="col-xl-12">
+<h2 class="header text-center">
+<strong class="text-uppercase"> Обучение bootstrap  </strong>
+</h2>
+</div>
+</div>
+         
+<div class="row">
+<div class="col-8 ">
+<div class="video">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/XP23qdQEDmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div> 
+<div class="col-4">
+<div class="form">
+<p class="form-header text-center">Введите свои данные</p>
+<form action="#">
+<input type="text" class="form-control input-lg form-input" placeholder="Ваше имя" id="username">
+<input type="text" class="form-control input-lg form-input" placeholder="Ваш email" id="useremail">
+<a href="instruction.docx" class="btn btn-success  btn-block form-btn" id="loadbtn">Получить инструкцию</a>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<h1 class="text-center" id="acad">ACADEMY CODARIUM </h1>
+                 <div class="mygallery" id="gallery" >
+            <div>
+                <img width="100%" src="img/Codarium1.png">
+            </div>
+            <div>
+                <img width="100%" src="img/Codarium2.png">
+            </div>
+            <div>
+                <img  width="100%" src="img/Codarium3.png">
+            </div>
+            <div>
+              <img  width="100%" src="img/Codarium4.png">
+          </div>
+        </div>
+             
+                  
+
+<div class="section2_______">
+<div class="container-xl">
+<div class="row">
+<div class="col-xl-12">
+  <h2 class="section-header text-uppercase text-center"> Только изучение и практика каждый день, даст хорошие результаты в создание сайтов!!! <i><h5>(учимся подключать иконки)</h5></i></h2>
+</div>
+</div>
+<div class="feature text-center ">
+<div class="row">
+<div class="col">
+<div class="feature-box"> 
+<img width="50%"  src="icons/animat-checkmark.gif">
+<h2>Иконка "Галочка в круге"</h2>
+</div>
+</div>
+<div class="col">
+<div class="feature-box"> 
+<img width="50%"src="icons/animat-customize.gif">
+<h2> Иконка "Кнопки движущиеся по направляющим"</h2>
+</div>
+</div>
+<div class="col">
+<div class="feature-box"> 
+<img width="50%" src="icons/animat-responsive.gif">
+<h2> Иконка "Смартфон, планшет, монитор" </h2>
+</div>
+</div>
+<div class="col">
+<div class="feature-box"> 
+<img width="50%" src="icons/client-4.png">
+<h2> Логотип </h2>
+</div>
+</div>
+</div>
+</div>
+        
+          
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+<script type="text/javascript" src="slick/slick.min.js"></script>
+ <script>
+   
+     $(document).ready(function(){
+        $('.mygallery').slick({
+            "autoplay": true,
+            "autoplaySpeed" : 2000
+        });
+
+        // var lots_of_stuff_already_done = false;
+
+        $('#loadbtn').on('click', function(e){
+         
+          e.preventDefault();
+          if($('#username').val().length > 0 && $('#useremail').val().length > 0)
+          {
+            console.log('1');
+            // $('#test').click();
+            var link = document.createElement("a");
+                link.download = 'name';
+                link.href = 'academy.docx';
+                link.click();
+                      }
+          else {
+            alert('Заполните все поля!');
+          }
+        })
+      });
+    </script>
+  
+</body>
+</html>

@@ -1,0 +1,85 @@
+header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 60px ;
+  color: rgb(14, 68, 32)
+}
+.header span {
+  display: block;
+}
+.section1, .section2, .section3  {
+  background-image: url("img/space-3197611_960_720.webp");
+  background-size: cover ;
+  background-repeat: no-repeat ;
+margin-right: 0px;
+  padding: 30px 0;
+}
+.section-header {
+  margin-top: 150px;
+}
+.col-8 {
+  border: 3px solid #158b29;
+  background: rgb(104, 202, 86);
+  }
+  .form-header {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .form {
+  border: 4px solid green;
+  padding: 20px 30px;
+  }
+  .form-input {
+    margin-bottom: 40px;
+
+  }
+  .form-btn {
+    margin: 40px auto;
+    }
+.section-header {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(14, 68, 32);
+}
+.feature {
+  margin: 60px auto;
+}
+.feature p {
+  margin-top: 20px;
+}
+.section3 {
+  width: 850px;
+  height: 850px;
+  margin-top: 200px;
+}
+.col {
+    margin-top: auto;
+
+}
+.section3 {
+  margin-top: 200px;
+}
+
+h2 {
+  margin-bottom: 3cm;
+  color: rgb(12, 90, 12);
+  
+}
+#acad {
+   margin-top: 8cm;
+}
+
+a {
+  border: 3px solid #158b29;
+  background-color: rgb(147, 199, 136);
+}
+#gallery{
+  margin-bottom: 2cm;
+  margin-top: 6cm;
+}
+
+#video {
+  margin-bottom: 6cm;
+  margin-top: 4cm;
+}

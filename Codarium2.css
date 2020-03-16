@@ -1,0 +1,185 @@
+@media screen and (min-width: 768px) {
+	#hideforlargescreen {
+		display: none;
+	}
+	#showforlargescreen {
+		display: initial;
+	}
+}
+@media screen and (max-width: 768px) {
+	.logo {
+		display: none;
+	}
+	#hideforlargescreen {
+		display: initial;
+	}
+	#showforlargescreen {
+		display: none;
+	}
+
+
+}
+
+
+@font-face {
+	font-family: 'Aquarelle';
+	font-style: normal;
+	src: local('Aquarelle'), local('Aquarelle-Regular'),
+		url(fonts/aquarelle.woff) format('woff'), url(fonts/aquarelle.ttf) format('truetype');
+}
+
+body {
+	background-image: url(img/columns-801715_960_720.jpg);
+	background-size: cover ;
+  background-repeat: no-repeat ;
+	padding: 0 0px;
+}
+
+.wrapper {
+  		padding-bottom: 50px;
+}
+
+.header {
+	background-image: url(img/depositphotos_20065571-stock-photo-interior-room-with-white-brick.jpg);
+	border: rgb(194, 26, 26) 3px solid;
+			}
+				
+		.logo:hover{
+			/* text-shadow: 0px 0px 10px #aa1d1d; */
+			color: #a5232e;
+			letter-spacing: 15px;
+			transition: 3s ease-in-out;
+			background-color: #c02020;
+			filter: contrast(130%);
+		}
+.logo {
+	height: 100px;
+	background-image: url(img/depositphotos_20065571-stock-photo-interior-room-with-white-brick.jpg);
+	background-size: cover ;
+  background-repeat: no-repeat ;
+	font-family: 'Aquarelle', Arial;
+	font-size: 70px;
+	text-align: center;
+	}
+
+.brandinmenu {
+	color: rgb(138, 21, 36);
+	font-family: 'calibri', times;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.brandinmenu:hover {
+	color: #582500;
+	text-decoration: none;
+	transition: 150ms ease-in-out;
+	transform: scaleX(1.1);
+}
+
+.nav-link {
+	font-family: 'calibri', times;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.slogan {
+	color: #7e1419;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.slogan span {
+	font-family: 'Aquarelle', Arial;
+	font-size: 70px;
+	font-size: 1.5em;
+	color: #60187c;
+}
+
+.homephotosinfo {
+	color: #a83652;
+}
+.homephotos {
+	margin: 10px 10px;
+	
+}
+
+.homephotos img{
+	width: 100%;
+	border: 10px solid #fff;
+	border-radius: 10px;
+	-webkit-box-shadow: 3px 3px 3px rgb(99, 16, 99);
+	-moz-box-shadow: 3px 3px 3px #777;
+	box-shadow: 3px 3px 3px #777;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+
+}
+
+
+.homephotosinfo {
+	font-size: 24px;
+}
+
+.contacts_space{
+	padding: 15px;
+}
+
+
+.footer {
+	border-top: white 3px solid;
+		background-image: url(imgs/Build_PSTU.png);
+	  background-repeat: no-repeat ;
+	background-color: #582500;
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+	padding-bottom: -20px;
+	}
+
+
+.footerlogo {
+	font-family: 'Aquarelle', Arial;
+	color: #ffe9a1;
+	font-size: 60px;
+	margin: 0 0;
+}
+
+.footer a {
+	color: #ffe9a1;
+	text-decoration: none;	
+}
+#Mariupol{
+	width:60%;
+	}
+	
+	h1 {
+		font-family: "CentraleSans", Arial;
+		font-size: 35pt;
+		text-align: center;	
+		color: rgb(219, 34, 34);
+	}
+	
+	h2 {
+		font-family: "CentraleSans", Arial;
+		font-size: 36pt;
+		text-align: center;	
+		color: rgb(106, 20, 177);
+	}
+	
+	.title_description {
+		display: flex;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 12pt;
+		text-align: center;
+		justify-content: center;
+		color: rgb(12, 94, 26);
+	}
+	
+	
+	
